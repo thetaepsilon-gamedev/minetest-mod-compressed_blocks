@@ -43,6 +43,7 @@ See the LICENSE file for details.
 Current TODO:
 
 * API documentation, though there's not much of it.
+* Fix a dependency on a small local mod called "modns" which was a half-assed attempt at namespacing in lua - stay tuned.
 
 Screenshots
 
