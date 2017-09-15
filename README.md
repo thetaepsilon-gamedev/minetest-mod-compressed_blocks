@@ -43,4 +43,8 @@ See the LICENSE file for details.
 Current TODO:
 
 * API documentation, though there's not much of it.
-* Screenshots: coming soon when there's something to look at...
+
+Screenshots
+
+![cobble 01](screenshots/ss_compressed_cobble_01.png)
+More coming soon when there's more to look at.
