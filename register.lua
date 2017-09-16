@@ -34,10 +34,15 @@ end
 -- this object might be moved in future, say to external mods.
 local recipe_register_impl = function(input, output)
 	local count = 8
+	craft_row = helperlib_create_table_repeat(input, 3)
+
 	minetest.register_craft({
 		output = output,
-		type = "shapeless",
-		recipe = helperlib_create_table_repeat(input, count)
+		recipe = {
+			craft_row,
+			craft_row,
+			{ input, input, "" }
+		}
 	})
 	minetest.register_craft({
 		output = input.." "..tostring(count),
