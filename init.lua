@@ -15,3 +15,4 @@ minetest.register_node(
 interface.register_node("default", "cobble", 8, nil)
 
 modns.register("swizzledpixel.compressed_blocks", interface)
+minetest.log("[II] compressed blocks initialisation complete")
