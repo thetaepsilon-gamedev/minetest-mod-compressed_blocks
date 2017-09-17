@@ -14,6 +14,4 @@ minetest.register_node(
 
 interface.register_node("default", "cobble", 8, nil)
 
-if modns.swizzledpixel == nil then modns.swizzledpixel = {} end
-local n = modns.swizzledpixel
-n.compressed_nodes = interface
+modns.register("swizzledpixel.compressed_blocks", interface)
