@@ -1,4 +1,4 @@
-# mt\_compressed\_blocks
+# compressed\_blocks
 A minetest mod to create craftable compressed versions of nodes
 
 This mod allows you to register nodes to have "compressed" versions of those nodes created.
